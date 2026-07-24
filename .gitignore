@@ -30,6 +30,11 @@ public_ftp/
 ssl/
 tmp/
 
+# PHP Files (Removed - site is now fully static HTML)
+*.php
+public_html/**/*.php
+public_html/konarka/
+
 # Log Files & Error Logs
 error_log
 */error_log
