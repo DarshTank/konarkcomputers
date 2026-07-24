@@ -1,0 +1,57 @@
+# Environment & Secret Files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Keys, Certificates & Credentials
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.id_rsa
+.htpasswd
+.htpasswds
+
+# Server & cPanel System Folders (Private SSL Keys, Password Hashes, Server Logs)
+.attracta/
+.cagefs/
+.cl.selector/
+.cpanel/
+.cphorde/
+.htpasswds/
+.softaculous/
+.trash/
+etc/
+logs/
+mail/
+public_ftp/
+ssl/
+tmp/
+
+# Log Files & Error Logs
+error_log
+*/error_log
+**/*error_log
+*.log
+
+# Database Dumps & Backups
+*.sql
+*.sql.gz
+*.dump
+*.tar
+*.tar.gz
+*.zip
+*.bak
+
+# OS & IDE Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Vercel & Node Dependencies
+.vercel
+node_modules/
